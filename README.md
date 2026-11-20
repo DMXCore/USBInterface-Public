@@ -1,6 +1,6 @@
-# USB Interface firmware
+# DMX USB Interface firmware
 
-Free firmware releases of the **USB Interface** for the [DMX Core Pico 2](https://dmxcore.com/pico).
+Free firmware releases of the **DMX Core USB Interface** for the [DMX Core Pico 2](https://dmxcore.com/pico).
 With it the board is a two-port USB DMX interface with RDM, for lighting software on
 Windows, macOS and Linux.
 
