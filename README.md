@@ -1,25 +1,23 @@
 # USB Interface firmware
 
-Releases of the **USB Interface** firmware for the [DMX Core Pico 2](https://dmxcore.com/pico),
-beside its Re-Mapper firmware. With it the board is a two-port USB DMX interface:
+Firmware releases of the **USB Interface** for the [DMX Core Pico 2](https://dmxcore.com/pico).
+With it the board is a two-port USB DMX interface with RDM, for lighting software on
+Windows, macOS and Linux.
 
-- the Enttec DMX USB Pro serial protocol, with the DMXking two-port extensions;
-- DMX output on both ports, DMX input on port A;
-- RDM on port A for lighting software (for example OLA), and on both ports for the
-  DMX Core configuration tools.
+**Documentation: [docs.dmxcore.com/usb-interface](https://docs.dmxcore.com/usb-interface/)**:
+installing the firmware, wiring, lighting software, the DMX Core USB Utility, settings and
+troubleshooting.
 
-Download the `.uf2` from [Releases](../../releases).
+## Download
 
-## Install or update
+Get `dmxcore-pico2-usb-interface-<version>.uf2` from [Releases](../../releases). Each
+release lists what is new.
 
-1. Hold BOOTSEL while plugging the board into USB (or, from this firmware, send label 1
-   or run `picotool reboot -u`). The RPI-RP2 drive appears.
-2. Copy `dmxcore-pico2-usb-interface-<version>.uf2` onto it. The board restarts with the
-   new firmware.
-
-To go back to the Re-Mapper, copy its `.uf2` the same way.
+To install it, follow [Installing the Firmware](https://docs.dmxcore.com/usb-interface/installing-firmware/),
+or use the [DMX Core USB Utility](https://docs.dmxcore.com/usb-interface/config-utility/),
+which finds and installs new releases for you.
 
 ## Issues
 
-Report problems in [Issues](../../issues), with the version (shown by the DMX Core
-configuration tools) and what you were doing.
+Report problems in [Issues](../../issues), with the firmware version (shown in the DMX Core
+USB Utility) and what you were doing.
